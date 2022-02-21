@@ -14,18 +14,25 @@
 }
 
 .title {
-    background-color: rgb(159, 75, 255);
-    color: rgb(0, 0, 0);
+    /* background-color: rgb(159, 75, 255); */
+    background-color: #4A7AFF;
+    /* color: rgb(0, 0, 0); */
+    color: #FFE000;
     font-family: tomkin-medium, sans-serif;
     height: 75px;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .container {
     /* background-color: black; */
-    color: rgb(0, 0, 0);
+    /* color: rgb(250, 0, 0); */
+    background-color: #0053BF;
+    min-height: 100vh;
+    padding: 100px 0;
+    color: #FF5F96;
     display: flex;
     justify-content: center;
     margin: 50px 0 0 0;
@@ -40,14 +47,16 @@
 }
 .box {
     cursor: pointer;
-    border: 2px solid rgb(159, 75, 255);
+    border: 4px solid #fff;
     font-size: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FFC200;
 }
 .box:hover {
-    background-color: rgb(227, 203, 255);
+    /* background-color: rgb(227, 203, 255); */
+    background-color: #E9EDF5;
 }
 .thank-you-image img{
     width: 0;
@@ -75,14 +84,19 @@
     font-size: 1.25rem;
     padding: 5px;
     margin: 0 5px;
-    background-color: rgb(159, 75, 255);
-    color: rgb(0, 0, 0);
+    /* background-color: rgb(159, 75, 255);
+    color: rgb(0, 0, 0); */
+    background-color: #FFC200;
+    color: #0053BF;
     border-radius: 5px;
     cursor: pointer;
 }
 #resetbutton:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(209, 168, 255);
+    /* color: rgb(0, 0, 0);
+    background-color: rgb(209, 168, 255); */
+    color: #4A7AFF;
+    background-color: #FFE000;
+    font-size: 1.5rem;
 }
 .info {
     font-size: 2rem;
@@ -94,7 +108,8 @@
 }
 
 .line {
-    background-color: rgb(216, 182, 255);
+    /* background-color: rgb(216, 182, 255); */
+    background-color: #8d8d8d;
     width: 0;
     height: 4px;
     position: absolute;
