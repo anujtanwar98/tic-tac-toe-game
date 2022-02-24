@@ -32,7 +32,8 @@
     background-color: #0053BF;
     min-height: 100vh;
     padding: 100px 0;
-    color: #FF5F96;
+    /* color: #FF5F96; */
+    color:#E9EDF5;
     display: flex;
     justify-content: center;
     margin: 50px 0 0 0;
@@ -127,5 +128,8 @@
     .sub-container {
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
+    }
+    .line {
+        display: none;
     }
 }

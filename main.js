@@ -40,6 +40,7 @@ Array.from(boxes).forEach(element =>{
             checkWin();
             if (!gameover){
                 document.getElementsByClassName("sub-sub-info")[0].innerText = "Turn for " + turn;
+                // document.getElementsByClassName(".boxtext").removeEventListener('click', turn, false);
             }
         }
     })
